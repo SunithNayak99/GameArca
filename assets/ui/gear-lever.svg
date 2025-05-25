@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="300" viewBox="0 0 120 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gear Lever Base -->
+    <rect x="30" y="200" width="60" height="100" rx="10" fill="#333333" />
+    <rect x="35" y="205" width="50" height="90" rx="8" fill="#222222" />
+    
+    <!-- Gear Track -->
+    <rect x="45" y="50" width="30" height="150" rx="5" fill="#444444" />
+    <rect x="50" y="55" width="20" height="140" rx="3" fill="#333333" />
+    
+    <!-- Gear Positions -->
+    <circle cx="60" cy="70" r="15" fill="#555555" />
+    <circle cx="60" cy="110" r="15" fill="#555555" />
+    <circle cx="60" cy="150" r="15" fill="#555555" />
+    <circle cx="60" cy="190" r="15" fill="#555555" />
+    
+    <!-- Gear Labels -->
+    <text x="60" y="75" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">P</text>
+    <text x="60" y="115" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">R</text>
+    <text x="60" y="155" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">N</text>
+    <text x="60" y="195" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">D</text>
+    
+    <!-- Gear Knob -->
+    <linearGradient id="knobGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#999999" />
+        <stop offset="50%" stop-color="#dddddd" />
+        <stop offset="100%" stop-color="#999999" />
+    </linearGradient>
+    <circle cx="60" cy="70" r="25" fill="url(#knobGradient)" />
+    <circle cx="60" cy="70" r="20" fill="#888888" />
+    <circle cx="60" cy="70" r="18" fill="#777777" />
+    
+    <!-- Highlight -->
+    <ellipse cx="55" cy="65" rx="8" ry="6" fill="#ffffff" opacity="0.3" />
+    
+    <!-- Shadow -->
+    <ellipse cx="60" cy="280" rx="40" ry="10" fill="#000000" opacity="0.3" />
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Car Body -->
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#3498db" />
+        <stop offset="100%" stop-color="#2980b9" />
+    </linearGradient>
+    <path d="M50,80 L80,40 L240,40 L280,80 L320,80 L350,100 L350,120 L30,120 L30,100 Z" fill="url(#bodyGradient)" />
+    
+    <!-- Car Shadow -->
+    <ellipse cx="200" cy="135" rx="150" ry="10" fill="#000000" opacity="0.3" />
+    
+    <!-- Windows -->
+    <path d="M90,45 L110,80 L230,80 L250,45 Z" fill="#a8e6ff" />
+    <path d="M90,45 L100,45 L120,80 L110,80 Z" fill="#a8e6ff" />
+    <path d="M250,45 L240,45 L220,80 L230,80 Z" fill="#a8e6ff" />
+    
+    <!-- Wheels -->
+    <circle cx="100" cy="120" r="25" fill="#333333" />
+    <circle cx="100" cy="120" r="15" fill="#666666" />
+    <circle cx="100" cy="120" r="5" fill="#333333" />
+    
+    <circle cx="300" cy="120" r="25" fill="#333333" />
+    <circle cx="300" cy="120" r="15" fill="#666666" />
+    <circle cx="300" cy="120" r="5" fill="#333333" />
+    
+    <!-- Details -->
+    <rect x="30" y="90" width="320" height="2" fill="#1c638d" />
+    <rect x="350" y="100" width="5" height="20" fill="#ff0000" /> <!-- Taillight -->
+    <rect x="30" y="100" width="5" height="20" fill="#f1c40f" /> <!-- Headlight -->
+    
+    <!-- Door Lines -->
+    <path d="M150,50 L160,80" stroke="#2980b9" stroke-width="2" />
+    <path d="M200,50 L190,80" stroke="#2980b9" stroke-width="2" />
+    
+    <!-- Door Handles -->
+    <rect x="140" y="70" width="10" height="3" fill="#cccccc" />
+    <rect x="210" y="70" width="10" height="3" fill="#cccccc" />
+    
+    <!-- Highlights -->
+    <path d="M80,45 L240,45" stroke="#ffffff" stroke-width="1" opacity="0.5" />
+    <path d="M100,50 L220,50" stroke="#ffffff" stroke-width="1" opacity="0.3" />
+</svg>

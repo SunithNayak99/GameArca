@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="200" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sports Car Body - Sleeker design -->
+    <path d="M25,50 L75,50 Q85,60 85,80 L85,160 Q85,180 75,190 L25,190 Q15,180 15,160 L15,80 Q15,60 25,50" fill="#ff3333"/>
+    
+    <!-- Hood - More aerodynamic -->
+    <path d="M35,30 L65,30 Q70,40 70,50 L30,50 Q30,40 35,30" fill="#cc0000"/>
+    
+    <!-- Roof - Lower profile -->
+    <path d="M30,50 L70,50 L70,75 L30,75 Z" fill="#cc0000"/>
+    
+    <!-- Windows - Sleeker -->
+    <path d="M33,55 L67,55 L67,70 L33,70 Z" fill="#a8e6ff"/>
+    
+    <!-- Headlights - Angled -->
+    <path d="M25,35 L35,40 L35,50 L25,45 Z" fill="#f1c40f"/>
+    <path d="M75,35 L65,40 L65,50 L75,45 Z" fill="#f1c40f"/>
+    
+    <!-- Taillights -->
+    <rect x="20" y="180" width="15" height="8" fill="#ff0000"/>
+    <rect x="65" y="180" width="15" height="8" fill="#ff0000"/>
+    
+    <!-- Wheels - Larger -->
+    <g id="left-wheels">
+        <!-- Front Left -->
+        <rect x="5" y="60" width="15" height="30" rx="3" fill="#2c3e50"/>
+        <!-- Rear Left -->
+        <rect x="5" y="140" width="15" height="30" rx="3" fill="#2c3e50"/>
+    </g>
+    <g id="right-wheels">
+        <!-- Front Right -->
+        <rect x="80" y="60" width="15" height="30" rx="3" fill="#2c3e50"/>
+        <!-- Rear Right -->
+        <rect x="80" y="140" width="15" height="30" rx="3" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Details -->
+    <path d="M45,75 L55,75 L55,185 L45,185 Z" fill="#cc0000" opacity="0.5"/>
+    <rect x="25" y="100" width="50" height="2" fill="#2c3e50"/>
+    <rect x="25" y="120" width="50" height="2" fill="#2c3e50"/>
+    
+    <!-- Spoiler -->
+    <rect x="25" y="190" width="50" height="5" fill="#cc0000"/>
+    <rect x="30" y="190" width="5" height="10" fill="#cc0000"/>
+    <rect x="65" y="190" width="5" height="10" fill="#cc0000"/>
+</svg>

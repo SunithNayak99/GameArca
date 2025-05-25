@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="220" viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg">
+    <!-- Truck Body - Larger and with cargo area -->
+    <!-- Cab section -->
+    <path d="M25,60 L95,60 L95,120 L25,120 Z" fill="#f39c12"/>
+    
+    <!-- Hood -->
+    <path d="M30,40 L90,40 L95,60 L25,60 Z" fill="#e67e22"/>
+    
+    <!-- Cargo area -->
+    <path d="M25,120 L95,120 L95,200 L25,200 Z" fill="#95a5a6"/>
+    
+    <!-- Cargo area sides -->
+    <path d="M25,120 L30,120 L30,200 L25,200 Z" fill="#7f8c8d"/>
+    <path d="M90,120 L95,120 L95,200 L90,200 Z" fill="#7f8c8d"/>
+    <path d="M25,195 L95,195 L95,200 L25,200 Z" fill="#7f8c8d"/>
+    
+    <!-- Windows -->
+    <path d="M35,65 L85,65 L85,110 L35,110 Z" fill="#a8e6ff"/>
+    <path d="M35,65 L45,65 L45,110 L35,110 Z" fill="#e67e22"/> <!-- A-pillar -->
+    <path d="M75,65 L85,65 L85,110 L75,110 Z" fill="#e67e22"/> <!-- A-pillar -->
+    
+    <!-- Headlights -->
+    <rect x="30" y="45" width="15" height="10" fill="#f1c40f"/>
+    <rect x="75" y="45" width="15" height="10" fill="#f1c40f"/>
+    
+    <!-- Taillights -->
+    <rect x="25" y="185" width="10" height="10" fill="#e74c3c"/>
+    <rect x="85" y="185" width="10" height="10" fill="#e74c3c"/>
+    
+    <!-- Wheels - Larger for truck -->
+    <g id="left-wheels">
+        <!-- Front Left -->
+        <rect x="5" y="80" width="20" height="40" rx="4" fill="#2c3e50"/>
+        <!-- Rear Left -->
+        <rect x="5" y="160" width="20" height="40" rx="4" fill="#2c3e50"/>
+    </g>
+    <g id="right-wheels">
+        <!-- Front Right -->
+        <rect x="95" y="80" width="20" height="40" rx="4" fill="#2c3e50"/>
+        <!-- Rear Right -->
+        <rect x="95" y="160" width="20" height="40" rx="4" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Details -->
+    <rect x="25" y="130" width="70" height="2" fill="#7f8c8d"/>
+    <rect x="25" y="150" width="70" height="2" fill="#7f8c8d"/>
+    <rect x="25" y="170" width="70" height="2" fill="#7f8c8d"/>
+    
+    <!-- Grill -->
+    <rect x="35" y="50" width="50" height="5" fill="#7f8c8d"/>
+    <rect x="40" y="50" width="5" height="5" fill="#95a5a6"/>
+    <rect x="50" y="50" width="5" height="5" fill="#95a5a6"/>
+    <rect x="60" y="50" width="5" height="5" fill="#95a5a6"/>
+    <rect x="70" y="50" width="5" height="5" fill="#95a5a6"/>
+</svg>

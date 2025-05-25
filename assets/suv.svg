@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="200" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- SUV Body - Taller and boxier -->
+    <path d="M20,40 L80,40 Q90,50 90,70 L90,160 Q90,180 80,190 L20,190 Q10,180 10,160 L10,70 Q10,50 20,40" fill="#2980b9"/>
+    
+    <!-- Hood - Flatter -->
+    <path d="M25,30 L75,30 Q80,35 80,40 L20,40 Q20,35 25,30" fill="#1c638d"/>
+    
+    <!-- Roof - Taller and extends further back -->
+    <path d="M20,40 L80,40 L80,100 L20,100 Z" fill="#1c638d"/>
+    
+    <!-- Windows -->
+    <path d="M25,45 L75,45 L75,95 L25,95 Z" fill="#a8e6ff"/>
+    <path d="M25,45 L35,45 L35,95 L25,95 Z" fill="#1c638d"/> <!-- A-pillar -->
+    <path d="M65,45 L75,45 L75,95 L65,95 Z" fill="#1c638d"/> <!-- A-pillar -->
+    <path d="M45,45 L55,45 L55,95 L45,95 Z" fill="#1c638d"/> <!-- B-pillar -->
+    
+    <!-- Headlights -->
+    <rect x="20" y="35" width="15" height="10" fill="#f1c40f"/>
+    <rect x="65" y="35" width="15" height="10" fill="#f1c40f"/>
+    
+    <!-- Taillights -->
+    <rect x="15" y="180" width="10" height="15" fill="#e74c3c"/>
+    <rect x="75" y="180" width="10" height="15" fill="#e74c3c"/>
+    
+    <!-- Wheels - Larger for SUV -->
+    <g id="left-wheels">
+        <!-- Front Left -->
+        <rect x="5" y="60" width="15" height="35" rx="3" fill="#2c3e50"/>
+        <!-- Rear Left -->
+        <rect x="5" y="140" width="15" height="35" rx="3" fill="#2c3e50"/>
+    </g>
+    <g id="right-wheels">
+        <!-- Front Right -->
+        <rect x="80" y="60" width="15" height="35" rx="3" fill="#2c3e50"/>
+        <!-- Rear Right -->
+        <rect x="80" y="140" width="15" height="35" rx="3" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Details -->
+    <rect x="20" y="110" width="60" height="2" fill="#2c3e50"/>
+    <rect x="20" y="130" width="60" height="2" fill="#2c3e50"/>
+    <rect x="20" y="150" width="60" height="2" fill="#2c3e50"/>
+    
+    <!-- Roof Rack -->
+    <rect x="25" y="40" width="50" height="3" fill="#2c3e50"/>
+    <rect x="25" y="40" width="3" height="10" fill="#2c3e50"/>
+    <rect x="72" y="40" width="3" height="10" fill="#2c3e50"/>
+</svg>

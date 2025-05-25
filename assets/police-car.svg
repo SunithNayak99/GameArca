@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="200" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Police Car Body -->
+    <path d="M20,40 L80,40 Q90,60 90,80 L90,160 Q90,180 80,190 L20,190 Q10,180 10,160 L10,80 Q10,60 20,40" fill="#ffffff"/>
+    
+    <!-- Hood -->
+    <path d="M30,20 L70,20 Q75,30 75,40 L25,40 Q25,30 30,20" fill="#000033"/>
+    
+    <!-- Roof -->
+    <path d="M25,40 L75,40 L75,70 L25,70 Z" fill="#000033"/>
+    
+    <!-- Windows -->
+    <path d="M28,45 L72,45 L72,65 L28,65 Z" fill="#a8e6ff"/>
+    
+    <!-- Police Lights -->
+    <rect x="35" y="40" width="10" height="5" fill="#ff0000"/>
+    <rect x="55" y="40" width="10" height="5" fill="#0000ff"/>
+    
+    <!-- Headlights -->
+    <rect x="25" y="25" width="15" height="10" fill="#f1c40f"/>
+    <rect x="60" y="25" width="15" height="10" fill="#f1c40f"/>
+    
+    <!-- Taillights -->
+    <rect x="20" y="180" width="15" height="8" fill="#ff0000"/>
+    <rect x="65" y="180" width="15" height="8" fill="#ff0000"/>
+    
+    <!-- Wheels -->
+    <g id="left-wheels">
+        <!-- Front Left -->
+        <rect x="5" y="60" width="10" height="25" rx="2" fill="#2c3e50"/>
+        <!-- Rear Left -->
+        <rect x="5" y="140" width="10" height="25" rx="2" fill="#2c3e50"/>
+    </g>
+    <g id="right-wheels">
+        <!-- Front Right -->
+        <rect x="85" y="60" width="10" height="25" rx="2" fill="#2c3e50"/>
+        <!-- Rear Right -->
+        <rect x="85" y="140" width="10" height="25" rx="2" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Police Markings -->
+    <rect x="20" y="100" width="60" height="20" fill="#000033"/>
+    <text x="30" y="115" font-family="Arial" font-size="12" fill="#ffffff">POLICE</text>
+    
+    <!-- Side Stripes -->
+    <rect x="10" y="80" width="80" height="5" fill="#0000ff"/>
+    <rect x="10" y="140" width="80" height="5" fill="#0000ff"/>
+</svg>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>SteerX: High-Speed Highway</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="score">Score: 0</div>
+            <div id="speedometer">
+                <div id="speed-value">0 mph</div>
+                <div id="speed-meter">
+                    <div id="speed-indicator"></div>
+                </div>
+            </div>
+            <div id="steering-wheel-container">
+                <img src="assets/steering-wheel.svg" id="steering-wheel" alt="Steering Wheel">
+            </div>
+            <div id="controls">
+                <button id="pause-btn">⏸️</button>
+                <button id="restart-btn" style="display: none;">🔄</button>
+                <button id="sound-btn">🔊</button>
+                <button id="horn-btn">📢</button>
+            </div>
+        </div>
+        <div id="game-over" style="display: none;">
+            <h2>Game Over</h2>
+            <p id="final-score">Score: 0</p>
+            <button id="restart-game-btn">Play Again</button>
+        </div>
+        <div id="start-screen">
+            <h1>SteerX: High-Speed Highway</h1>
+            <p>Steer your car to avoid traffic and go as far as possible!</p>
+            <div class="controls-info">
+                <p>Mobile: Use the steering wheel at the bottom</p>
+                <p>Desktop: Use arrow keys or A/D to steer</p>
+            </div>
+            <div class="car-preview">
+                <img src="assets/car.svg" alt="Player Car" width="100">
+            </div>
+            <button id="start-game-btn">Start Game</button>
+        </div>
+    </div>
+
+    <!-- Load audio assets -->
+    <audio id="engine-sound" src="assets/sounds/engine.mp3" loop></audio>
+    <audio id="crash-sound" src="assets/sounds/crash.mp3"></audio>
+    <audio id="horn-sound" src="assets/sounds/horn.mp3"></audio>
+    <audio id="background-music" src="assets/sounds/background.mp3" loop></audio>
+
+    <!-- Load game scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/car.js"></script>
+    <script src="js/road.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
